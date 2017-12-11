@@ -1,0 +1,57 @@
+﻿body {
+}
+
+
+.columnStick {
+    width:202px;
+    height:590px;
+    max-height:990px;
+    float:left;
+    margin-left:10px;
+    border: solid 1px black;
+    padding:5px;
+    overflow:scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+textarea { resize: vertical; }
+
+.infoColumnLabel {
+    display: inline-block;
+    width: 190px;
+    height:30px;
+    border: solid 1px black;
+    text-align:center;
+    line-height:30px;
+    float:left;
+    margin-bottom:20px;
+}
+
+.columnLabel {
+    display: inline-block;
+    width: 190px;
+    min-height:25px;
+    text-align:center;
+    line-height:30px;
+    float:left;
+}
+
+
+.serviceModuleContainer {
+    display: inline-block;
+    width: 190px;
+    min-height:25px;
+    border: solid 1px black;
+    text-align:center;
+    line-height:25px;
+    float:left;
+    margin-bottom:10px;
+}   
+
+.textarea {
+    height:auto; 
+    padding:10px 0px 10px 0px;
+}
